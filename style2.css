@@ -1,0 +1,51 @@
+body{
+background: url(../bck.jpg)no-repeat;
+background-size: cover;
+font-family: Arial;
+}
+.wrap{
+    max-width: 450px;
+    border-radius: 20px;
+    margin: auto;
+    border: 2px solid,rgb(254, 7, 147);
+    background-color:white ;
+    box-sizing: border-box;
+    padding: 30px 40px;
+    color:rgb(254, 7, 147);
+    margin-top: 100px;
+    width: 420px;
+}
+h2{
+    text-align: center;
+}
+input[type=text],input[type=password]{
+    width: 100%;
+    height:30px;
+    box-sizing: border-box;
+    padding: 20px 45px 20px 20px;
+    background:white;
+    outline:2px solid;
+    border:1px solid;
+    color: rgb(254,7,147);
+    border-radius:10px;
+    margin: 12px;
+    font-weight: bold;
+    flood-color:rgb(254,7,147);
+    position:relative;
+}
+input[type="submit"]{
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    padding:10px,10px; 
+    margin-top: 30px;
+    outline: none;
+    background:rgb(254, 7, 147);
+    border-radius: 20px;
+    font-size: 20px;
+    color:white;
+}
+input[type="submit"]:hover{
+    background: rgb(2254, 7, 147);
+    opacity: 80%;
+}
